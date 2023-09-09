@@ -1,0 +1,53 @@
+html{
+    background-color: black;
+}
+#main1{
+    color: white;
+    border: solid black;
+    background-color: black;
+    border-style: outset;
+    border-color: bisque;
+    padding: 5px;
+    border-width: 5px;
+    text-shadow: 1px 1px 1px green;
+}
+
+#main2{
+    color: white;
+    border: solid black;
+    background-color: black;
+    border-style: outset;
+    border-color: bisque;
+    padding: 5px;
+    border-width: 5px;
+    text-shadow: 1px 1px 1px green;
+    
+}
+ol{
+    color: red;
+    
+}
+
+img{
+    color: maroon;
+    border: solid chartreuse 5px;
+    border-style: dashed;
+    border-radius: 5%;
+    padding: 0.5%;
+    align-items: center;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+*{
+    text-align: center;
+    text-shadow: 0.5px white;
+}
+a{
+    color: crimson;
+}
+#div1{
+    border: solid green 5px;
+    background-color: green;
+    margin: 0%;
+
+}
