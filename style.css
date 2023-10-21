@@ -51,3 +51,9 @@ a{
     margin: 0%;
 
 }
+img:hover{
+    color: rgb(44, 250, 25);
+    text-decoration: 0;
+    list-style: none;
+    padding: 15px; 
+}
