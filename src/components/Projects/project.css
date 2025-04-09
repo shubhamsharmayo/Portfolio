@@ -10,6 +10,7 @@
     width: 98.7vw;
     padding: 20px 0 80px 0;
     pointer-events: none;
+    min-height: 100vh;
 }
 
 .project-heading {

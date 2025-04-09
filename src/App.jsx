@@ -9,7 +9,7 @@ import About from './components/about/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Resume from './components/Resume/Resume'
-
+import Footer from './components/footer/Footer';
 
 function App() {
   const homeRef = useRef(null);
@@ -42,6 +42,7 @@ function App() {
           <FirstPage sectionRef={homeRef} />
           <About sectionRef={aboutRef} />
           <Skills sectionRef={skillsRef} />
+          <Footer/>
         </>
       )
     },
@@ -54,6 +55,7 @@ function App() {
             <Navbar scrollToSection={scrollToSection} />
           </div>
           <Projects />
+          <Footer/>
         </>
       )
     },
@@ -66,6 +68,7 @@ function App() {
             <Navbar scrollToSection={scrollToSection} />
           </div>
           <Resume />
+          <Footer/>
         </>
       )
     }

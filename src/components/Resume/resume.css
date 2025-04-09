@@ -8,6 +8,7 @@
     padding: 50px 0 50px 0;
     pointer-events: none;
     flex-direction: column;
+    min-height: 100vh;
 }
 .pdf{
     pointer-events: all;
@@ -26,4 +27,9 @@
     color: white;
     text-decoration: none;
     box-shadow: 2px 2px 5px rgb(14, 170, 0),-2px -2px 5px rgb(209, 0, 0);
+    transition: all 0.4s;
+}
+.download:hover{
+    background-color: rgb(155, 1, 155);
+    box-shadow: 4px 4px 5px rgb(14, 170, 0),-4px -4px 5px rgb(209, 0, 0);
 }
