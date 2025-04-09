@@ -1,0 +1,13 @@
+.model-container {
+    touch-action: none;
+  }
+  
+  /* Scrollable container */
+  .model-container-scroll {
+    touch-action: auto !important;
+  }
+  
+  .model-container-scroll canvas {
+    touch-action: auto !important;
+    pointer-events: none !important;
+  }

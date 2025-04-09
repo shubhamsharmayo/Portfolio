@@ -1,0 +1,108 @@
+.about{
+    min-height: 100vh;
+    /* border: 1px solid white; */
+    position: relative;
+    z-index: 100;
+    width: 98vw;
+    pointer-events: none;
+}
+.galaxy{
+    /* border: 1px solid white; */
+    position: relative;
+    z-index: 0;
+    transition: all 1s;
+}
+.galaxy:hover{
+    
+   transform: scale(0.9);
+}
+.about-container{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.about-para{
+    margin-left: 5%;
+    /* border: 1px solid white; */
+    width: 70vw;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+ 
+
+}
+.about-intro{
+    /* border: 1px solid white; */
+    width: 70vw;
+    font-size: 30px;
+    color: rgb(240, 239, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+.highlight{
+    /* border: 1px solid white;  */
+    color: blueviolet;
+    display: inline-block ;
+    filter: drop-shadow(1px 1px 1px rgb(17, 0, 245));
+    line-height: 20px;
+    height: fit-content;
+    margin: 0;
+   
+}
+
+@media (max-width: 1103px) {
+    .about-container{
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+        height: 100vh;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .about-para{
+        /* margin-left: 5%; */
+        /* border: 1px solid white; */
+        width: 90vw;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+     
+    
+    }
+    .galaxy:hover{
+        
+        transform: scale(1);
+     }
+  }
+@media (max-width: 768px) {
+    .galaxy:hover{
+        
+        transform: scale(1);
+     }
+  }
+  
+  @media (max-width: 480px) {
+    .about{
+        min-height: 100vh;
+        /* border: 1px solid white; */
+        position: relative;
+        z-index: 100;
+        width: 100vw;
+        pointer-events: none;
+    }
+    .galaxy:hover{
+        
+        transform: scale(1);
+     }
+  }

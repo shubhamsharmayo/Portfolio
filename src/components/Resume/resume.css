@@ -1,0 +1,29 @@
+.resume{
+    position: relative;
+    z-index: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97.8vw;
+    padding: 50px 0 50px 0;
+    pointer-events: none;
+    flex-direction: column;
+}
+.pdf{
+    pointer-events: all;
+    margin-top: 50px;
+}
+.download{
+    pointer-events: all;
+    /* border: 1px solid white; */
+    height: 40px;
+    width: 250px;
+    background-color: purple;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgb(14, 170, 0),-2px -2px 5px rgb(209, 0, 0);
+}
