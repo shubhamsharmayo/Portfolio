@@ -184,6 +184,7 @@ body {
   .list-visible {
     visibility: visible;
     cursor: pointer;
+    color: white;
   }
 
   .navbar ul,
