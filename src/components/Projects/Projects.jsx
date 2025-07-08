@@ -32,7 +32,7 @@ const Projects = () => {
       title: "Object Detection and Prediction using Image Segmentation",
       img: image_segmentation,
       desc: "This project is a full-stack AI-powered web application that combines Flask (Python) for the backend and React for the frontend to perform real-time object detection and handwriting recognition. It uses a Mask R-CNN model pre-trained on the COCO dataset to detect objects in images, videos, and live webcam streams. For handwriting recognition, it integrates Tesseract OCR with OpenCV-based preprocessing. The backend exposes multiple RESTful APIs to handle file uploads, video processing, and webcam control, while the frontend provides a clean, responsive UI to interact with these features, offering a seamless visual AI experience.",
-      github: "https://github.com/shubhamsharmayo/Classroom-Management",
+      github: "https://github.com/shubhamsharmayo/Image-Segmentation",
       live: "#"
     }
   ];
